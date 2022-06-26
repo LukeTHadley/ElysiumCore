@@ -1,0 +1,12 @@
+name: ElysiumCore
+version: '${project.version}'
+main: com.github.lukethadley.elysiumcore.ElysiumCore
+api-version: 1.19
+authors: [ Thomas9078 ]
+description: A minecraft plugin containting various commands and functions for Elysium Towny 
+
+commands:
+  rawmessage:
+    permission: elysiumcore.rawmessage
+    usage: /rawmessage [message]
+    default: op
