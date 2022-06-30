@@ -10,3 +10,6 @@ commands:
     permission: elysiumcore.rawmessage
     usage: /rawmessage [message]
     default: op
+  discord:
+    usage: /discord
+    default: true
