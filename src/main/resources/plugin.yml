@@ -13,3 +13,9 @@ commands:
   discord:
     usage: /discord
     default: true
+  vote:
+    aliases:
+      - votelinks
+      - vlinks
+    usage: /vote
+    default: true
