@@ -19,3 +19,6 @@ commands:
       - vlinks
     usage: /vote
     default: true
+  resource:
+    usage: /resource
+    default: true
