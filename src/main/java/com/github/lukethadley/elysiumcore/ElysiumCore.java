@@ -19,6 +19,7 @@ public final class ElysiumCore extends JavaPlugin {
 
         // Attach the DeathMessages listener to be active for this plugin
         getServer().getPluginManager().registerEvents(new DeathListener(this), this);
+        getServer().getPluginManager().registerEvents(new OldSpawnerPlaceListener(), this);
 
     }
 
