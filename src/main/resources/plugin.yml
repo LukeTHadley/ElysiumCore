@@ -22,3 +22,6 @@ commands:
   resource:
     usage: /resource
     default: true
+  worldstats:
+    usage: /worldstats
+    default: op

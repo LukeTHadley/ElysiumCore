@@ -16,6 +16,7 @@ public final class ElysiumCore extends JavaPlugin {
         getCommand("discord").setExecutor(new DiscordLinkCommand());
         getCommand("vote").setExecutor(new VoteLinkCommand());
         getCommand("resource").setExecutor(new ResourceCommand());
+        getCommand("worldstats").setExecutor(new WorldStatsCommand(this));
 
         // Attach the DeathMessages listener to be active for this plugin
         getServer().getPluginManager().registerEvents(new DeathListener(this), this);
